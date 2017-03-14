@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:background">@color/uwMetallicGold</item>
+        <item name="android:textColor">@color/uwPurple</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:editTextColor">@color/uwDarkGray</item>
+        <item name="android:textColorHint">@color/uwLightGray</item>
+    </style>
+
+    <style name="EditTextStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#F0F</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="PwdEditTextStyle" parent="EditTextStyle">
+        <item name="android:inputType">textWebPassword</item>
+    </style>
+
+    <style name="uw_button">
+        <item name="android:background">@drawable/uw_button</item>
+        <item name="android:textColor">@color/uw_button_colors</item>
+    </style>
+
+    <style name="uw_clear_button">
+        <item name="android:background">@drawable/uw_button_clear</item>
+        <item name="android:textColor">@color/uw_button_colors</item>
+    </style>
+
+</resources>

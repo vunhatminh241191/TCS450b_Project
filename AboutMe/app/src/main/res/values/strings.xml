@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="button_text">Text</string>
+    <string name="button_image">Image</string>
+    <string name="button_web">Web</string>
+    <string name="button_toast">Toast</string>
+    <string name="button_dialog">Dialog</string>
+
+    <string name="user_info">My name is Minh Vu.\nI will graduate next year at Master degree.\nMy favourite class is mobile programming because I would like to create some awesome application for everyone uses</string>
+</resources>
